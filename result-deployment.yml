@@ -28,7 +28,7 @@ metadata:
   labels:
     name: result-service
 spec:
-  type: Loadbalancer
+  type: LoadBalancer
   selector:
     name: result-deployment
   ports:
